@@ -1,0 +1,11 @@
+<div class="card margin-card">
+  <div class="center-content">
+    <img class="img-card" [src]="contact.picture.medium">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title center-content">{{contact.name.first}} {{contact.name.last}}</h5>
+    <p class="card-text">Teléfono: {{contact.cell}}</p>
+    <p class="card-text">Dirección: {{contact.location.street}}</p>
+    <p class="card-text">Correo: {{contact.email}}</p>
+  </div>
+</div>
